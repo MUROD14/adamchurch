@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Montserrat+Subrayada:wght@400;700&family=Noto+Sans&family=Nunito:wght@200;300;400;500;600;700;800;900&family=Poppins&family=Rubik:wght@300;400;500;800&display=swap');
+:root {
+  --body-bg: #F7EFEE;
+  --primary-color: #0B2149;
+  --hover-color: #b3b3b3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Nunito', sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+body {
+  background: var(--body-bg);
+  color: var(--primary-color) ;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 1380px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+}
+
+nav {
+  margin: 2rem;
+}
+
+.nav-logo {
+  width: 125px;
+  height: 65px;
+  position: relative;
+  right: 35px;
+}
+
+.main-nav {
+  font-size: 14px;
+}
+
+.navigation-item {
+  position: relative;
+  left: 10%;
+}
+
+ul li{
+  list-style: none;
+  margin: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+ul li a:hover {
+  color: var(--hover-color);
+}
+
+.nav-url {
+  margin: 15px;
+  border: 3px solid var(--primary-color);
+  padding: 10px 24px;
+  border-radius: 3px;
+  position: relative;
+  left: 20%;
+}
+
+.nav-url:hover {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.main-title {
+  font-size: 20px;
+}
+
+.main {
+  width: 100%;
+  margin-top: 200px;
+}
+
+.main-box-1 {
+  width: 60%;
+}
+
+.main-text {
+  font-size: 22px;
+}
+
+.main-title {
+  font-size: 55px;
+  margin: 15px 0 0 ;
+}
+
+.main-url {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.main-url-1 {
+  padding: 14px 18px 16px;
+  border: 4px solid var(--primary-color);
+  border-radius: 4px;
+}
+
+.main-url-2 {
+  border-radius: 4px;
+  padding: 14px 18px 16px;
+  margin: 10px;
+  border: 3px solid var(--primary-color);
+}
+
+.main-url-1 ,.main-url-2:hover {
+  background: var(--primary-color);
+  color: #F7EFEE;
+}
+
+.main-img {
+  position: relative;
+  /* bottom: 40%; */
+  /* left: 100%; */
+  margin: -150px 0;
+}
+
+
+
+section {
+  margin-top: 145px;
+}
+
+.container2 {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 42px;
+  margin-top: 150px;
+}
+
+.section-text {
+  font-size: 22px;
+  margin: 15px 0 0;
+  font-weight: normal;
+  width: 1021px;
+}
+
+.section-box {
+  margin-top: 100px;
+}
+
+.section-box-1 {
+  position: relative;
+  right: 3%;
+}
+
+.section-box-1 h4{
+  font-size: 36px;
+  margin-top: 25px;
+}
+
+.section-box-1 p {
+  width: 662px;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 15px 0 0;
+}
+
+.icon {
+  background: red;
+  margin-top: 70px;
+}
+
+.border {
+  width: 100%;
+  max-width: 1700px;
+  margin-left: 250px;
+  border-bottom: 4px solid var(--primary-color);
+}
+
+#h3{
+  background: red;
+  height: 200px;
+  transform: translateX(80%) rotate(-90deg);
+  margin-right: 100%;
+} 
+
+
+
+.axirdan-3-box1 {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.axirdan-3-box-1 {
+  width: 55%;
+  margin-top: 100px;
+}
+
+.axirdan-3-img1 {
+  width: 45%;
+}
+
+.axirdan-3-title {
+  font-size: 42px;
+}
+
+.axirdan-3-text {
+  font-size: 21px;
+  margin: 15px 0 0 0;
+  width: 662px;
+  height: 224px;
+  line-height: 1.3;
+}
+
+.axirdan-3-url {
+  border: 3px solid var(--primary-color);
+  padding: 14px 18px 16px;
+  border-radius: 4px;
+}
+.axirdan-3-url:hover {
+  background: var(--primary-color);
+  color: var(--body-bg);
+}
+
+.axirdan-3-box2 {
+  margin-top: 120px;
+}
+
+.axirdan-3-text3 {
+  font-size: 21px;
+  margin: 15px 0 0 0;
+  width: 662px;
+  height: 150px;
+  line-height: 1.3;
+}
+
+
+
+.axirdan_2 {
+  background: var(--primary-color);
+  height: 368px;
+  margin-top: 150px;
+}
+
+.ota {
+  width: 100%;
+}
+.axirdan-2-box1 {
+  width: 45%;
+  padding-top: 90px;
+}
+.axirdan-2-box2 {
+  /* width: 30%; */
+  position: relative;
+  left: 33%;
+}
+/* saidmurod_ake */
+
+.axirdan-2-title {
+  font-size: 42px;
+  color: var(--body-bg);
+}
+.axirdan-2-url {
+  display: inline-block;
+  padding: 18px 27px 19px;
+  background: var(--body-bg);
+  border: 3px solid var(--body-bg);
+  border-radius: 4px;
+  margin-top: 30px;
+}
+.axirdan-2-url:hover {
+  background: var(--primary-color);
+  color: var(--body-bg);
+}
+
+
+
+footer {
+  margin-top: 60px;
+}
+
+footer a {
+  display: inline-block;
+}
+
+.footer-box-2 {
+  padding-left: 150px;
+}
+
+.fbox-1-title {
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.fbox-2-title {
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.fbox-1-text p {
+  font-size: 18px;
+  font-weight: normal;
+  padding: 5px 0;
+}
+
+
+.fbox-2-url a{
+  font-size: 18px;
+  font-weight: normal;
+  padding: 5px 0;
+}
+
+.fbox-1-url {
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 80px;
+}
+
+.footer-img {
+  margin-left: 300px;
+}
+
+.footer-img a {
+  margin: 15px;
+}
+
+.fbox-1-url:hover {
+  color: var(--hover-color);
+}
+.fbox-2-url a:hover {
+  color: var(--hover-color);
+}
+.footer-img img:hover {
+  opacity: 0.3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* saidmurod_ake */
